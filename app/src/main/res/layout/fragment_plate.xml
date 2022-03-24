@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.example.menuweek.viewModel.ViewModelListPlates" />
+
+        <variable
+            name="viewModelOrder"
+            type="com.example.menuweek.viewModel.ViewModelSelectedOrder" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#59C151"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        style="@style/name_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="@{viewModelOrder.selectedPlate.equals(viewModel.listPricipal.get(0))}"
+                        android:layoutDirection="rtl"
+                        android:onClick="@{()-> viewModelOrder.setPlate(viewModel.listPricipal.get(0))}"
+                        android:text="@{viewModel.listPricipal.get(0).namePlate}"
+                        android:textAlignment="textStart"
+                        android:textDirection="rtl"
+                        tools:text="כלום" />
+
+                    <TextView
+                        style="@style/details_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textAlignment="textStart"
+                        android:text="@{viewModel.listPricipal.get(0).description}"
+                        android:textDirection="rtl"
+                        tools:text="description" />
+
+                    <TextView
+                        style="@style/price_plate"
+                        android:textDirection="rtl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@{@string/price_plate(viewModel.getPrice(viewModel.listPricipal.get(0)))}"
+                        tools:text="$0.0" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton5"
+                        style="@style/name_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="@{viewModelOrder.selectedPlate.equals(viewModel.listPricipal.get(1))}"
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
+                        android:onClick="@{()-> viewModelOrder.setPlate(viewModel.listPricipal.get(1))}"
+                        android:text="@{viewModel.listPricipal.get(1).namePlate}"
+                        android:textAlignment="textStart" />
+
+                    <TextView
+                        style="@style/details_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="rtl"
+                        android:layout_marginLeft="10dp"
+                        android:text="@{viewModel.listPricipal.get(1).description}"
+                        android:textAlignment="textStart"
+                        tools:text="description" />
+
+                    <TextView
+                        style="@style/price_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="rtl"
+                        android:layout_marginLeft="10dp"
+                        android:text="@{@string/price_plate(viewModel.getPrice(viewModel.listPricipal.get(1)))}"
+                        tools:text="$0.0" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        style="@style/name_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="@{viewModelOrder.selectedPlate.equals(viewModel.listPricipal.get(2))}"
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
+                        android:onClick="@{()-> viewModelOrder.setPlate(viewModel.listPricipal.get(2))}"
+                        android:text="@{viewModel.listPricipal.get(2).namePlate}" />
+
+                    <TextView
+                        style="@style/details_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="rtl"
+                        android:layout_marginLeft="10dp"
+                        android:text="@{viewModel.listPricipal.get(2).description}"
+                        tools:text="description" />
+
+                    <TextView
+                        style="@style/price_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="rtl"
+                        android:layout_marginLeft="10dp"
+                        android:text="@{@string/price_plate(viewModel.getPrice(viewModel.listPricipal.get(2)))}"
+                        tools:text="$0.0" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton3"
+                        style="@style/name_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="@{viewModelOrder.selectedPlate.equals(viewModel.listPricipal.get(3))}"
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
+                        android:onClick="@{()-> viewModelOrder.setPlate(viewModel.listPricipal.get(3))}"
+                        android:text="@{viewModel.listPricipal.get(3).namePlate}" />
+
+                    <TextView
+                        style="@style/details_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="rtl"
+                        android:layout_marginLeft="10dp"
+                        android:text="@{viewModel.listPricipal.get(3).description}"
+                        tools:text="description" />
+
+                    <TextView
+                        style="@style/price_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="rtl"
+                        android:layout_marginLeft="10dp"
+                        android:text="@{@string/price_plate(viewModel.getPrice(viewModel.listPricipal.get(3)))}"
+                        tools:text="$0.0" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton"
+                        style="@style/name_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="@{viewModelOrder.selectedPlate.equals(viewModel.listPricipal.get(4))}"
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
+                        android:onClick="@{()-> viewModelOrder.setPlate(viewModel.listPricipal.get(4))}"
+                        android:text="@{viewModel.listPricipal.get(4).namePlate}" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        style="@style/details_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="rtl"
+                        android:layout_marginLeft="10dp"
+                        android:text="@{viewModel.listPricipal.get(4).description}"
+                        tools:text="description" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        style="@style/price_plate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="rtl"
+                        android:layout_marginLeft="10dp"
+                        android:text="@{@string/price_plate(viewModel.getPrice(viewModel.listPricipal.get(4)))}"
+                        tools:text="$0.0" />
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:text="@{@string/price_plate(viewModelOrder.subtotal)}" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Material3.Button"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:text="@string/next" />
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:text="@string/cancel" />
+    </LinearLayout>
+</layout>

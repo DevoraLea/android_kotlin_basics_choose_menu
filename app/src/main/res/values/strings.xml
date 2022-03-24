@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_order">start order</string>
+    <string name="next"> המשך</string>
+    <string name="send_order"> שלח הזמנה</string>
+    <string name="cancel"> בטל</string>
+    <string name="price_plate">%s </string>
+    <string name="order_details">Order details: \n  %s - %s \n %s - %s \n %s - %s \n %s - %s \n
+        Total: %s \n Thank you!
+    </string>
+
+    <string name="star_order_heb">התחל הזמנה: </string>
+    <string name="summary_order">הזמנה </string>
+    <string name="summary">סיכום הזמנה: </string>
+    <string name="plate_principal">מנה עיקרית </string>
+    <string name="plate_side_dish">מנה תוספת </string>
+    <string name="plate_acompaniament">מנה ראשונה </string>
+    <string name="plate_desert">קינוח </string>
+
+    <string name="plate_principal_detail">מנה עיקרית: %s</string>
+    <string name="plate_side_dish_detail"> מנה תוספת: %s </string>
+    <string name="plate_acompaniament_detail">מנה ראשונה: %s </string>
+    <string name="plate_desert_detail">קינוח: %s </string>
+
+<string name="order_title">Order: </string>
+
+    <string-array name="plateNothing">
+        <item> כלום </item>
+        <item>כלום </item>
+        <item>"0.0"</item>
+    </string-array>
+
+    <string-array name="plateMealFirst">
+        <item> שניצל </item>
+        <item>שניצל עם אורז </item>
+        <item>"20.0"</item>
+    </string-array>
+    <string-array name="plateMealTwo">
+        <item> בשר טחון </item>
+        <item>בשר טחון עם פסטה אדומה </item>
+        <item>"40.0"</item>
+    </string-array>
+    <string-array name="plateMealThree">
+        <item> עוף </item>
+        <item>עוף עם אורז </item>
+        <item>"15.0"</item>
+    </string-array>
+    <string-array name="plateMealFour">
+        <item> קציצות הודו </item>
+        <item>קציצות הודו עם אורז </item>
+        <item>"30.0"</item>
+    </string-array>
+
+    <string-array name="plateMilkFirst">
+        <item> פיצה אישית </item>
+        <item>פיצה אישית עם גבינה מוצרלה </item>
+        <item>"20.0"</item>
+    </string-array>
+    <string-array name="plateMilkTwo">
+        <item> פסטה </item>
+        <item>פסטה עם גבינות ברוטב שמנת </item>
+        <item>"30.0"</item>
+    </string-array>
+    <string-array name="plateMilkThree">
+        <item> רביולי </item>
+        <item>רביולי במילוי גבינות ברוטב שמנת </item>
+        <item>"15.0"</item>
+    </string-array>
+    <string-array name="plateMilkFour">
+        <item> לזניה </item>
+        <item>לזניה עם גבינות ברוטב עגבניות </item>
+        <item>"50.0"</item>
+    </string-array>
+
+    <string-array name="plateParveFirst">
+        <item> שניצל טירס </item>
+        <item>שניצל טירס עם בורגול </item>
+        <item>"15.0"</item>
+    </string-array>
+    <string-array name="plateParveTwo">
+        <item> מרק </item>
+        <item>מרק עם קנידלך וירקות ושקדי מרק </item>
+        <item>"20.0"</item>
+    </string-array>
+    <string-array name="plateParveThree">
+        <item> דג סלמון </item>
+        <item>דג סלמון עם קוסקוס  </item>
+        <item>"30.0"</item>
+    </string-array>
+    <string-array name="plateParveFour">
+        <item> רביולי </item>
+        <item>רביולי במילוי בטטה ברוטב שמנת עגבניות </item>
+        <item>"50.0"</item>
+    </string-array>
+
+    <string-array name="plateSideDishFirst">
+        <item> בורקס </item>
+        <item>בורקס תפוח אדומה </item>
+        <item>"15.0"</item>
+    </string-array>
+    <string-array name="plateSideDishTwo">
+        <item> פיתה </item>
+        <item>פיתה עם חומוס וחביתה </item>
+        <item>"10.0"</item>
+    </string-array>
+    <string-array name="plateSideDishThree">
+        <item> סיגריות </item>
+        <item>סיגריות ירקות </item>
+        <item>"30.0"</item>
+    </string-array>
+    <string-array name="plateSideDishFour">
+        <item> ציפס </item>
+        <item>ציפס תפוח אדומה ובטטה </item>
+        <item>"10.0"</item>
+    </string-array>
+
+    <string-array name="plateSideDishMilkFirst">
+        <item> בורקס </item>
+        <item>בורקס גבינות </item>
+        <item>"15.0"</item>
+    </string-array>
+    <string-array name="plateSideDishMilkTwo">
+        <item> פיתה </item>
+        <item>פיתה עם גבינה לבנה וחביתה </item>
+        <item>"10.0"</item>
+    </string-array>
+    <string-array name="plateSideDishMilkThree">
+        <item> סיגריות </item>
+        <item>סיגריות גבינות</item>
+        <item>"30.0"</item>
+    </string-array>
+    <string-array name="plateSideDishMilkFour">
+        <item> ציפס </item>
+        <item>ציפס תפוח אדומה ובטטה עם גבינות </item>
+        <item>"10.0"</item>
+    </string-array>
+
+    <string-array name="plateAcompaniamentFirst">
+        <item> סלט </item>
+        <item>סלט עגבניות, מלפפון, זיתים </item>
+        <item>"10.0"</item>
+    </string-array>
+    <string-array name="plateAcompaniamentTwo">
+        <item> ירקות </item>
+        <item>תפוח אדומה, בטטה, גזר, קישוא </item>
+        <item>"15.0"</item>
+    </string-array>
+    <string-array name="plateAcompaniamentThree">
+        <item> פירה </item>
+        <item>פירה תפוח אדומה </item>
+        <item>"15.0"</item>
+    </string-array>
+    <string-array name="plateAcompaniamentFour">
+        <item> פשטידה </item>
+        <item>פשטידה תפוח אדומה </item>
+        <item>"20.0"</item>
+    </string-array>
+
+    <string-array name="plateDesertFirst">
+        <item> סלט פירות </item>
+        <item>תפוח, בננה, תפוז, מלון </item>
+        <item>"15.0"</item>
+    </string-array>
+    <string-array name="plateDesertTwo">
+        <item> עוגה בראוניז </item>
+        <item>עוגה בראוניז חמה עם אגוזים </item>
+        <item>"25.0"</item>
+    </string-array>
+    <string-array name="plateDesertThree">
+        <item> גלידה </item>
+        <item>כדור שוקולד וכדור וניל </item>
+        <item>"30.0"</item>
+    </string-array>
+    <string-array name="plateDesertFour">
+        <item> עוגיות </item>
+        <item>מיקס עוגיות </item>
+        <item>"30.0"</item>
+    </string-array>
+    <string-array name="plateDesertFive">
+        <item> עוגה שיש </item>
+        <item>עוגה שיש עם קרם </item>
+        <item>"15.0"</item>
+    </string-array>
+</resources>
