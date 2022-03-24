@@ -24,7 +24,7 @@ And choose the delicious desert!
 ![5](https://user-images.githubusercontent.com/95829236/160020315-62442234-b88a-4b0b-bced-32ef2264d2fb.png)
 .png)
 
-Your finish your order! Now you get the organized order and if you want to change something you can go back but dont forget to afterwards send your order pressing the button to send!
+Your finish your order! Now you get the organized order and if you want to change something you can go back but dont forget to afterwards send your order pressing the button to send! And you can know the final price after the tax and if is expensive go back and you can change your choices!
 Have joy!
 
 ![6](https://user-images.githubusercontent.com/95829236/160020319-96cbc39b-55a9-40b7-b0fa-b5c6fedae2b9.png)
